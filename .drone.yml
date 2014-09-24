@@ -1,0 +1,5 @@
+image: neikos/libreset
+script:
+    - cmake -DHARD_MOE=ON .
+    - make
+    - ctest -VV .
